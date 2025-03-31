@@ -9,7 +9,7 @@ function App() {
   // const [items, setItems] = useState(null);
   // pass the item to UpdateItem as a prop
 
-  return <ItemList />;
+  return <ItemList apiUrl={API_URI} />;
 }
 
 export default App;
